@@ -16,7 +16,6 @@ inputCountry.addEventListener(
 
 function inputCountryName() {
   const name = inputCountry.value.trim();
-  console.log(name);
   if (name === '') {
     listOfCountries.innerHTML = '';
     infoCountry.innerHTML = '';
